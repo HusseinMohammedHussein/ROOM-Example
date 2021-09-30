@@ -1,9 +1,10 @@
-package com.husseinmohammed.applyroom
+package com.husseinmohammed.applyroom.ui.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
+import com.husseinmohammed.applyroom.R
 import com.husseinmohammed.applyroom.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

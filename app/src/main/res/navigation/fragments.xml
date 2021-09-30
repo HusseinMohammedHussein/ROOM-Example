@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/fragments">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragments"
+    app:startDestination="@id/charactersRoomFragment">
 
+    <fragment
+        android:id="@+id/charactersRoomFragment"
+        android:name="com.husseinmohammed.applyroom.ui.fragments.CharactersRoomFragment"
+        android:label="fragment_characters_room"
+        tools:layout="@layout/fragment_characters_room" />
 </navigation>
